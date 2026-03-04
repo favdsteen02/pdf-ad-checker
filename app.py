@@ -881,6 +881,15 @@ async def analyze_pdf(
         return JSONResponse({"error": f"Analyse mislukt: {exc}"}, status_code=500)
 
 
+@app.post("/check")
+async def check_pdf(
+    pdf: UploadFile = File(...),
+    magazine_id: str = Form(...),
+    format_id: str = Form(...),
+):
+    return await analyze_pdf(pdf=pdf, magazine_id=magazine_id, format_id=format_id)
+
+
 @app.post("/detect")
 async def detect_pdf(
     pdf: UploadFile = File(...),

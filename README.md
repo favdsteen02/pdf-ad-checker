@@ -51,6 +51,7 @@ curl http://127.0.0.1:8000/health
 - `GET /magazines`
 - `POST /detect` (auto-detect publisher/magazine/format)
 - `POST /analyze`
+- `POST /check` (alias of `/analyze`, handy for Framer)
 - `POST /analyze.async`
 - `GET /jobs/{job_id}`
 - `POST /report` (HTML report)
@@ -95,3 +96,11 @@ python -m unittest discover -s tests -v
 - Magazine/formats are loaded from `magazines.json`.
 - Format names include size in mm.
 - Magazines are returned alphabetically by API.
+### Framer Fetch Example
+
+```ts
+fetch("https://YOUR-RENDER-URL/check", {
+  method: "POST",
+  body: formData,
+})
+```

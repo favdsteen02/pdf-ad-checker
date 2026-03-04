@@ -1,0 +1,2925 @@
+{
+  "magazines": [
+    {
+      "id": "alles_over_erven",
+      "name": "Alles over Erven Magazine",
+      "display_name": "Alles over Erven Magazine (230×300mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        230.0,
+        300.0
+      ],
+      "bleed_mm": 6.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (230.0×300.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            230.0,
+            300.0
+          ],
+          "bleed_mm": 6.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (115.0×300.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            115.0,
+            300.0
+          ],
+          "bleed_mm": 6.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (230.0×150.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            230.0,
+            150.0
+          ],
+          "bleed_mm": 6.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (115.0×150.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            115.0,
+            150.0
+          ],
+          "bleed_mm": 6.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (115.0×75.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            115.0,
+            75.0
+          ],
+          "bleed_mm": 6.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (460.0×300.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            460.0,
+            300.0
+          ],
+          "bleed_mm": 6.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "archeologie",
+      "name": "Archeologie Magazine",
+      "display_name": "Archeologie Magazine (215×285mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        285.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×285.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×285.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×142.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×142.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×71.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            71.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×285.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "automationnl",
+      "name": "AutomationNL",
+      "display_name": "AutomationNL (210×297mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (210.0×297.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (210.0×148.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×148.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (105.0×74.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            105.0,
+            74.25
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (420.0×297.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "bergen",
+      "name": "Bergen Magazine",
+      "display_name": "Bergen Magazine (215×280mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        280.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×280.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×280.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×140.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×140.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×70.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            70.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×280.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "bibliotheekblad_vacatures",
+      "name": "Bibliotheekblad Vacatures",
+      "display_name": "Bibliotheekblad Vacatures (210×297mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full",
+          "half",
+          "quarter"
+        ],
+        "kinds": [
+          "full",
+          "half",
+          "quarter"
+        ],
+        "has_spread": false,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": false
+      },
+      "formats": [
+        {
+          "id": "full",
+          "name": "1/1 pagina (210.0×297.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half",
+          "name": "1/2 pagina (210.0×148.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×148.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        }
+      ]
+    },
+    {
+      "id": "bike_explorer",
+      "name": "BIKE Explorer",
+      "display_name": "BIKE Explorer (215×280mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        280.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×280.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×280.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×140.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×140.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×70.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            70.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×280.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "bk_informatie",
+      "name": "BK-informatie",
+      "display_name": "BK-informatie (215×285mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        285.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×285.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×285.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×142.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×142.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×71.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            71.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×285.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "boekenkrant",
+      "name": "Boekenkrant",
+      "display_name": "Boekenkrant (260×390mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        260.0,
+        390.0
+      ],
+      "bleed_mm": 0.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full",
+          "half",
+          "quarter",
+          "eighth",
+          "spread"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": false
+      },
+      "formats": [
+        {
+          "id": "full",
+          "name": "1/1 pagina (260.0×390.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            260.0,
+            390.0
+          ],
+          "bleed_mm": 0.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half",
+          "name": "1/2 pagina (260.0×195.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            260.0,
+            195.0
+          ],
+          "bleed_mm": 0.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (130.0×195.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            130.0,
+            195.0
+          ],
+          "bleed_mm": 0.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (130.0×97.5mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            130.0,
+            97.5
+          ],
+          "bleed_mm": 0.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread",
+          "name": "2/1 spread (520.0×390.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            520.0,
+            390.0
+          ],
+          "bleed_mm": 0.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "dans",
+      "name": "Dans Magazine",
+      "display_name": "Dans Magazine (215×275mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        275.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×275.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×275.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×137.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            137.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×137.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            137.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×68.75mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            68.75
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×275.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "evmi",
+      "name": "EVMI",
+      "display_name": "EVMI (210×297mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (210.0×297.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (210.0×148.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×148.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (105.0×74.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            105.0,
+            74.25
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (420.0×297.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "genoeg",
+      "name": "Genoeg Magazine",
+      "display_name": "Genoeg Magazine (230×285mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        230.0,
+        285.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (230.0×285.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            230.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (115.0×285.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            115.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (230.0×142.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            230.0,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (115.0×142.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            115.0,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (115.0×71.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            115.0,
+            71.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (460.0×285.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            460.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "geschiedenis_magazine",
+      "name": "Geschiedenis Magazine",
+      "display_name": "Geschiedenis Magazine (215×285mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        285.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×285.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×285.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×142.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×142.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×71.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            71.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×285.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "gonzo_circus",
+      "name": "Gonzo (Circus)",
+      "display_name": "Gonzo (Circus) (210×275mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        210.0,
+        275.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (210.0×275.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (105.0×275.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            105.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (210.0×137.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            137.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×137.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            137.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (105.0×68.75mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            105.0,
+            68.75
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (420.0×275.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "heaven",
+      "name": "Heaven",
+      "display_name": "Heaven (210×275mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        210.0,
+        275.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (210.0×275.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (105.0×275.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            105.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (210.0×137.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            137.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×137.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            137.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (105.0×68.75mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            105.0,
+            68.75
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (420.0×275.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            275.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "ijs",
+      "name": "IJs!",
+      "display_name": "IJs! (230×300mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        230.0,
+        300.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (230.0×300.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            230.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (230.0×150.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            230.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (115.0×150.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            115.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (115.0×75.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            115.0,
+            75.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (460.0×300.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            460.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "fotobond_in_beeld",
+      "name": "In Beeld",
+      "display_name": "In Beeld (220×280mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        220.0,
+        280.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (220.0×280.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            220.0,
+            280.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (110.0×280.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            110.0,
+            280.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (220.0×140.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            220.0,
+            140.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (110.0×140.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            110.0,
+            140.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (110.0×70.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            110.0,
+            70.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (440.0×280.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            440.0,
+            280.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "is_geschiedenis",
+      "name": "iS Geschiedenis",
+      "display_name": "iS Geschiedenis (215×285mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        285.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×285.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×285.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×142.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×142.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            142.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×71.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            71.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×285.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            285.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "km",
+      "name": "kM Magazine",
+      "display_name": "kM Magazine (210×297mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (210.0×297.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (105.0×297.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            105.0,
+            297.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (210.0×148.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            148.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×148.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            148.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (105.0×74.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            105.0,
+            74.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (420.0×297.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "ons_amsterdam",
+      "name": "Ons Amsterdam",
+      "display_name": "Ons Amsterdam (205×290mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        205.0,
+        290.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (205.0×290.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            205.0,
+            290.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (102.5×290.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            102.5,
+            290.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (205.0×145.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            205.0,
+            145.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (102.5×145.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            102.5,
+            145.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (102.5×72.5mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            102.5,
+            72.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (410.0×290.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            410.0,
+            290.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "oostenrijk",
+      "name": "Oostenrijk",
+      "display_name": "Oostenrijk (215×280mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        280.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×280.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×280.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×140.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×140.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×70.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            70.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×280.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "pf_fotografie_magazine",
+      "name": "Pf Fotografie Magazine",
+      "display_name": "Pf Fotografie Magazine (235×305mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        235.0,
+        305.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (235.0×305.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            235.0,
+            305.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (117.5×305.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            117.5,
+            305.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (235.0×152.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            235.0,
+            152.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (117.5×152.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            117.5,
+            152.5
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (117.5×76.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            117.5,
+            76.25
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (470.0×305.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            470.0,
+            305.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "schrijven",
+      "name": "Schrijven Magazine",
+      "display_name": "Schrijven Magazine (215×280mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        280.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×280.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×280.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×140.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×140.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×70.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            70.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×280.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "snow_explorer",
+      "name": "SNOW Explorer",
+      "display_name": "SNOW Explorer (215×280mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        215.0,
+        280.0
+      ],
+      "bleed_mm": 5.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_bleed",
+          "half_portrait",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (215.0×280.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            215.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_portrait",
+          "name": "1/2 pagina staand (107.5×280.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            107.5,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina liggend (215.0×140.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            215.0,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (107.5×140.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            107.5,
+            140.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (107.5×70.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            107.5,
+            70.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (430.0×280.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            430.0,
+            280.0
+          ],
+          "bleed_mm": 5.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "display_name": "Support (210×297mm)",
+      "publisher": "VirtuMedia",
+      "base_trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "VirtuMedia",
+        "publisher": "VirtuMedia",
+        "format_ids": [
+          "full_page",
+          "spread",
+          "half_horizontal",
+          "half_vertical",
+          "quarter"
+        ],
+        "kinds": [
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_page",
+          "name": "Hele pagina (210.0×297.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "spread",
+          "name": "Spread (420.0×297.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_horizontal",
+          "name": "Halve pagina horizontaal (210.0×148.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "half_vertical",
+          "name": "Halve pagina verticaal (105.0×297.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            105.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "Kwart pagina (105.0×148.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        }
+      ]
+    },
+    {
+      "id": "vismagazine",
+      "name": "VISmagazine",
+      "display_name": "VISmagazine (230×300mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        230.0,
+        300.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (230.0×300.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            230.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (230.0×150.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            230.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (115.0×150.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            115.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (115.0×75.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            115.0,
+            75.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (460.0×300.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            460.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "vlees",
+      "name": "Vlees Magazine",
+      "display_name": "Vlees Magazine (230×300mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        230.0,
+        300.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (230.0×300.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            230.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (230.0×150.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            230.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (115.0×150.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            115.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (115.0×75.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            115.0,
+            75.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (460.0×300.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            460.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "voedingnu",
+      "name": "Voeding Nu",
+      "display_name": "Voeding Nu (210×297mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (210.0×297.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (210.0×148.5mm)",
+          "kind": "half",
+          "trim_mm": [
+            210.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (105.0×148.5mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            105.0,
+            148.5
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (105.0×74.25mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            105.0,
+            74.25
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (420.0×297.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    },
+    {
+      "id": "zuivelzicht",
+      "name": "ZuivelZicht",
+      "display_name": "ZuivelZicht (230×300mm)",
+      "publisher": "Alea Publishers",
+      "base_trim_mm": [
+        230.0,
+        300.0
+      ],
+      "bleed_mm": 3.0,
+      "min_effective_ppi": 300,
+      "preview_padding_pct": 2.6,
+      "support": {
+        "magazine_support": "Alea Publishers",
+        "publisher": "Alea Publishers",
+        "format_ids": [
+          "full_bleed",
+          "half_landscape",
+          "quarter",
+          "eighth",
+          "spread_bleed"
+        ],
+        "kinds": [
+          "eighth",
+          "full",
+          "half",
+          "quarter",
+          "spread"
+        ],
+        "has_spread": true,
+        "has_half": true,
+        "has_quarter": true,
+        "has_bleed_format": true
+      },
+      "formats": [
+        {
+          "id": "full_bleed",
+          "name": "1/1 pagina (230.0×300.0mm)",
+          "kind": "full",
+          "trim_mm": [
+            230.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        },
+        {
+          "id": "half_landscape",
+          "name": "1/2 pagina (230.0×150.0mm)",
+          "kind": "half",
+          "trim_mm": [
+            230.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "quarter",
+          "name": "1/4 pagina (115.0×150.0mm)",
+          "kind": "quarter",
+          "trim_mm": [
+            115.0,
+            150.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "eighth",
+          "name": "1/8 pagina (115.0×75.0mm)",
+          "kind": "eighth",
+          "trim_mm": [
+            115.0,
+            75.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": false,
+          "allow_landscape": true
+        },
+        {
+          "id": "spread_bleed",
+          "name": "2/1 spread (460.0×300.0mm)",
+          "kind": "spread",
+          "trim_mm": [
+            460.0,
+            300.0
+          ],
+          "bleed_mm": 3.0,
+          "bleed_required": true,
+          "allow_landscape": false
+        }
+      ]
+    }
+  ]
+}
